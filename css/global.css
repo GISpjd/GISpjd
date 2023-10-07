@@ -1,3 +1,34 @@
+/* 添加背景图及样式 */
 body {
-    background-color: black;
+    background: url("../stars.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* 设置标题样式 */
+h1 {
+    text-align: center;
+    padding-top: 200px;
+    font-size: 48px;
+}
+
+/* 设置动画效果 */
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 10px #fff;
+    }
+
+    50% {
+        text-shadow: 0 0 20px #00ffea;
+    }
+
+    100% {
+        text-shadow: 0 0 10px #fff;
+    }
+}
+
+/* 添加动画效果到标题 */
+h1 span {
+    animation: glow 2s infinite;
 }
