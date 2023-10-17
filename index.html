@@ -13,31 +13,37 @@
     <div>
         <h1><span>my 网页</span></h1>
     </div>
-    <div>
+
+    <div id="list">
+        <h2>My list</h2>
+        <ul>
+            <li>
+                <h3>study source</h3>
+                <ul>
+                    <li><a href="https://openlayers.org/" class="link">openlayers</a></li>
+                    <li><a href="https://www.cesium.com/" class="link">cesium</a></li>
+                    <li><a href="https://mapbox.com" class="link">mapbox</a></li>
+                    <li><a href="https://leafletjs.com/" class="link">leaflet</a></li>
+                </ul>
+            </li>
+            <li>
+                <h3>sharing and recording</h3>
+                <a href="https://blog.csdn.net/weixin_73810008?spm=1000.2115.3001.5343">blog of csdn</a>
+            </li>
+
+        </ul>
+    </div>
+    <div id="content">
+        <h2>Welcome to my site!</h2>
+        <p>Select a link to learn more.</p>
+    </div>
+    <div id="position">
         <button onclick="getLocation()">点一下展示你现在的位置</button>
         <p id="demo"></p>
-        <!-- <script>
-            const x = document.getElementById("demo");
-
-            function getLocation() {
-                try {
-                    navigator.geolocation.getCurrentPosition(showPosition);
-                } catch {
-                    x.innerHTML = err;
-                }
-            }
-
-            function showPosition(position) {
-                x.innerHTML = "Latitude: " + position.coords.latitude +
-                    "<br>Longitude: " + position.coords.longitude;
-            }
-        </script> -->
-
     </div>
-    <div>
+    <div id="database">
         <a href="https://postgis.net/workshops/zh_Hans/postgis-intro/">postgis</a>
     </div>
-
 
 </body>
 

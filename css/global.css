@@ -32,3 +32,45 @@ h1 {
 h1 span {
     animation: glow 2s infinite;
 }
+
+
+
+#list {
+    /* position: fixed; */
+    top: 150px;
+    background-color: #6f6868;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 250px;
+}
+
+#content {
+    position: fixed;
+    top: 50px;
+    /* 距离页面顶部的距离 */
+    right: 20px;
+    /* 距离页面右侧的距离 */
+    width: 550px;
+    /* 宽度 */
+    height: 80%;
+    /* 高度 */
+    border-radius: 20px;
+    background-color: #8e6868;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    /* 添加阴影效果 */
+    overflow-y: auto;
+    /* 如果内容溢出，则添加滚动条 */
+    padding: 20px;
+}
+
+#position {
+    position: absolute;
+    top: 400px;
+}
+
+#database {
+    position: absolute;
+    top: 450px
+}
