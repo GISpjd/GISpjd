@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="../main.js"></script>
     <link rel="stylesheet" href="./css/global.css">
 </head>
 
@@ -12,6 +13,31 @@
     <div>
         <h1><span>my 网页</span></h1>
     </div>
+    <div>
+        <button onclick="getLocation()">点一下展示你现在的位置</button>
+        <p id="demo"></p>
+        <!-- <script>
+            const x = document.getElementById("demo");
+
+            function getLocation() {
+                try {
+                    navigator.geolocation.getCurrentPosition(showPosition);
+                } catch {
+                    x.innerHTML = err;
+                }
+            }
+
+            function showPosition(position) {
+                x.innerHTML = "Latitude: " + position.coords.latitude +
+                    "<br>Longitude: " + position.coords.longitude;
+            }
+        </script> -->
+
+    </div>
+    <div>
+        <a href="https://postgis.net/workshops/zh_Hans/postgis-intro/">postgis</a>
+    </div>
+
 
 </body>
 
