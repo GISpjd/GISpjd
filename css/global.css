@@ -1,3 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
 /* 添加背景图及样式 */
 body {
     background: url("../stars.jpg") no-repeat center center fixed;
@@ -9,7 +23,7 @@ body {
 /* 设置标题样式 */
 h1 {
     text-align: center;
-    padding-top: 200px;
+    height: 8vh;
     font-size: 48px;
 }
 
@@ -36,25 +50,48 @@ h1 span {
 
 
 #list {
-    /* position: fixed; */
-    top: 150px;
+    float: left;
+    margin-top: 15vh;
+    margin-left: 4vw;
+    width: 20vw;
+    height: 45vh;
     background-color: #6f6868;
     border-radius: 10px;
     border: 2px solid #ccc;
-    padding: 10px;
-    margin-bottom: 20px;
-    width: 250px;
+    padding: 20px;
+
+}
+
+#list h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+#list h3 {
+    font-size: 30px;
+}
+
+#list hr {
+    border-style: dashed;
+    border-color: #00ffea;
+}
+
+#list #weizhi #btn1 {
+    width: 15vw;
+    height: 8vh;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Times New Roman';
+    color: cornflowerblue
 }
 
 #content {
-    position: fixed;
-    top: 50px;
-    /* 距离页面顶部的距离 */
-    right: 20px;
-    /* 距离页面右侧的距离 */
-    width: 550px;
+    float: right;
+    margin-top: 2vh;
+    margin-right: 3vw;
+    width: 40vw;
     /* 宽度 */
-    height: 80%;
+    height: 80vh;
     /* 高度 */
     border-radius: 20px;
     background-color: #8e6868;
@@ -65,12 +102,16 @@ h1 span {
     padding: 20px;
 }
 
-#position {
-    position: absolute;
-    top: 400px;
+#content h2 {
+    color: aquamarine;
+    font-size: 40px;
 }
 
-#database {
-    position: absolute;
-    top: 450px
+#content p {
+    color: aquamarine;
+    font-size: 30px;
+}
+
+#content #demo {
+    color: red;
 }
