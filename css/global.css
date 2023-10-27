@@ -14,7 +14,7 @@ li {
 
 /* 添加背景图及样式 */
 body {
-    background: url("../stars.jpg") no-repeat center center fixed;
+    background: url("../images/stars.jpg") no-repeat center center fixed;
     background-size: cover;
     color: white;
     font-family: Arial, sans-serif;
@@ -83,6 +83,24 @@ h1 span {
     cursor: pointer;
     font-family: 'Times New Roman';
     color: cornflowerblue
+}
+
+.game {
+    float: left;
+    border: 2px solid rgb(98, 197, 128);
+    border-radius: 5px;
+    margin: 200px 40px;
+    width: 20vw;
+    height: 8vh;
+    text-align: center;
+    background: rgba(200, 167, 229, 0.5);
+
+}
+
+.game a {
+    color: rgb(112, 247, 247);
+    font-size: 35px;
+    font-family: 'Times New Roman';
 }
 
 #content {
