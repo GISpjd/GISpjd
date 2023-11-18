@@ -1,0 +1,40 @@
+#game-board {
+    position: relative;
+    margin: auto;
+}
+
+div.item {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+}
+
+div.item.wall {
+    background: url(../images/move_wall.png);
+    background-size: 40px 40px;
+}
+
+div.item.ground {
+    background: url(../images/move_ground.png);
+    background-size: 40px 40px;
+}
+
+div.item.player {
+    background: url(../images/move_man.png);
+    background-size: 40px 40px;
+}
+
+div.item.box {
+    background: url(../images/move_box.png);
+    background-size: 40px 40px;
+}
+
+div.item.target {
+    background: url(../images/move_target.png);
+    background-size: 40px 40px;
+}
+
+div.item.arrive {
+    background: url(../images/move_arrive.png);
+    background-size: 40px 40px;
+}
